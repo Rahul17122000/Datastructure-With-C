@@ -243,4 +243,4 @@ void del_by_val(int val)
     printf("Data is not present in the list.Enter a valid data.\n");
     return;
 }
-void
+//End of all operations.
