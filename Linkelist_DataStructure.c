@@ -220,8 +220,11 @@ void reverse()
         q1=start;
         start=q2;
     }
-    start=q1
+    start=q1;
 }
+//Another way of reversing a singly linked list.
+/*
+void reverse()
 {
     struct node *p1,*p2,*p3;
     p1=start;
@@ -238,7 +241,7 @@ void reverse()
     }
     start=p2;
     return;
-}
+}*/
 void del_by_value(int val)
 {
     struct node *q,*temp;
@@ -271,15 +274,3 @@ void del_by_value(int val)
     else
        printf("Entered value is not present in the linked list.\n");
 }
-/*void reverse_print(struct node *p)
-{
-    if(p==NULL)
-        printf("List Is Empty.");
-    if(p->next==NULL)
-    {
-        return;
-    }
-    reverse_print(p->next);
-    printf("%d ",p->data);
-    return;
-}*/
