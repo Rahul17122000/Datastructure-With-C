@@ -77,7 +77,7 @@ void insert(int x)
 int delete()
 {
     int item;
-    if(front==-1 ||)
+    if(front==-1 ||  front==rear+1)
     {
         printf("QueueUnderflow\n");
         exit(1);
@@ -89,7 +89,7 @@ int delete()
 
 int peek()
 {
-    if(front==-1 ||)
+    if(front==-1 ||  front==rear+1)
     {
         printf("QueueUnderflow\n");
         exit(1);
@@ -98,7 +98,7 @@ int peek()
 }//End of peek function
 
 void display(){
-    if(front==-1)
+    if(front==-1 ||  front==rear+1)
     {
         printf("QueueUnderflow\n");
         return;
