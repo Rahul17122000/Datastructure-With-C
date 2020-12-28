@@ -10,7 +10,7 @@ int main()
     for(int i=0;i<n;i++)
         scanf("%d",&arr[i]);
 
-    //Implementing Bubble sort(In ascending order
+    //Implementing Bubble sort(In ascending order)
     int end=n-1,i,j,check,temp;
     for(i=n-1;i>0;i--)//for(i=0;i<n-1;i++)
     {
